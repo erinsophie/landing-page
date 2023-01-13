@@ -83,6 +83,15 @@ button {
    display: flex;
    justify-content: center;
    align-items: center;
+   flex-direction: column;
+   padding-top: 50px;
+   padding-bottom: 80px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
 }
 
 .mini-img {
@@ -91,6 +100,19 @@ button {
     max-width: 180px;
     border: 5px solid lightblue;
     border-radius: 10px;
+}
+
+.image-container {
+    display: flex;
+    margin-top: 60px;
+    text-align: center;
+    gap: 30px;
+}
+
+.img-text p {
+    width: 200px; 
+    font-size: 18px;
+    color: grey;
 }
 
 /* add section1, section2, section 3 etc. here to add overall padding to each section */
