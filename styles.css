@@ -139,9 +139,53 @@ h2 {
     color: #1F2937;
 }
 
+.section4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #3882F6;
+    width: 950px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.action-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.signup-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup-btn {
+    border: 2px solid white;
+}
+
+footer {
+    background-color: #1F2937;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+}
 /* add section1, section2, section 3 etc. here to add overall padding to each section */
 
-.section1, .section2, .section3 {
+.section1, .section2, .section3, .section4 {
     padding-left: 200px;
     padding-right: 200px;
 }
