@@ -1,8 +1,14 @@
 
+   
 * {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
+}
+
+.section1 {
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .header {
@@ -153,7 +159,7 @@ h2 {
     padding-left: 100px;
     padding-right: 100px;
     background-color: #3882F6;
-    width: 950px;
+    width: 900px;
     height: 150px;
     border-radius: 10px;
 }
@@ -183,9 +189,4 @@ footer {
     color: #E5E7EB;
     text-align: center;
 }
-/* add section1, section2, section 3 etc. here to add overall padding to each section */
 
-.section1, .section2, .section3, .section4 {
-    padding-left: 200px;
-    padding-right: 200px;
-}
